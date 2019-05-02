@@ -1,0 +1,70 @@
+[
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://cdn-static.tibame.com/temp/b15c652d-d347-439c-96de-1c3fe8a2e929_aws-blockchain.png",
+        "title": "線下-AWS區塊鏈平台與智能合約 DApp 開發實務",
+        "text": "講述區塊鏈的戰略價值、並結合AWS服務，引領學員進行具高價值的實作",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "課程網頁",
+            "text": "https://www.tibame.com/offline/aws-blockchain?classUid=87",
+            "data": "tag=aws|blockchain|offline|tutorial"
+          },
+          {
+            "type": "postback",
+            "label": "客制課程",
+            "text": "點擊旁邊連結 line://ti/p/@gby2522m 進行聯絡",
+            "data": "tag=aws|blockchain|contact|tutorial"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://cdn-static.tibame.com/resize/course/435/coverPic/57a5789e-c40e-4ffc-aa93-eb6376627293_區塊鏈資安_Cover_2x.png",
+        "title": "線上-快速打造區塊鏈原型",
+        "text": "以生活化方式解釋區塊鏈戰略價值，並在課程後半段教授如何快速打造區塊鏈原型",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "課程網頁",
+            "text": "https://www.tibame.com/course/435",
+            "data": "tag=blockchain|online|tutorial|hyperledger|composer"
+          },
+          {
+            "type": "postback",
+            "label": "客制課程",
+            "text": "點擊旁邊連結 line://ti/p/@gby2522m 進行聯絡",
+            "data": "tag=blockchain|contact|tutorial"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://cdn-static.tibame.com/resize/course/444/coverPic/116b5259-e677-47bb-86c3-5774fdd7a3a9_Golang_Cover_2x.png",
+        "title": "線上-使用 Golang 寫出自己的智能合約",
+        "text": "臺灣第一個獨創教材的區塊鏈 Hyperledger 聯盟鏈課程，使智能合約不再僅能用於代幣",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "課程網頁",
+            "text": "https://www.tibame.com/course/444",
+            "data": "tag=blockchain|golang|smart_contract|tutorial"
+          },
+          {
+            "type": "postback",
+            "label": "客制課程",
+            "text": "點擊旁邊連結 line://ti/p/@gby2522m 進行聯絡",
+            "data": "tag=blockchain|contact|tutorial"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+]

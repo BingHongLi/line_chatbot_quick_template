@@ -1,0 +1,48 @@
+[
+{
+  "type": "text",
+  "text": "其實也就是個定位在官方宣傳的內容機器人，但也不想顯得太無趣，耗了大家的時間。恰好想起很久以前的文學夢，想起了紅樓夢，想起了最後那一片大地，真乾淨。"
+},
+{
+  "type": "image",
+  "originalContentUrl": "PROVIDE_URL_FROM_YOUR_SERVER",
+  "previewImageUrl": "PROVIDE_URL_FROM_YOUR_SERVER",
+  "animated": true
+},
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "29年以下",
+        "text": "開生面夢演紅樓",
+        "data": "menu=rich_menu_1"
+      },
+      {
+        "type": "postback",
+        "label": "30-45年",
+        "text": "情切切良宵花語",
+        "data": "menu=rich_menu_2"
+      },
+      {
+        "type": "postback",
+        "label": "46年以上",
+        "text": "以假混真玉瘋巔",
+        "data": "menu=rich_menu_3"
+      },
+      {
+        "type": "postback",
+        "label": "無可奉告",
+        "text": "語村歸結紅樓夢",
+        "data": "menu=rich_menu_0"
+      }
+    ],
+    "thumbnailImageUrl": "https://d.blog.xuite.net/d/0/b/e/238561270/blog_3571718/txt/221184295/0.gif",
+    "title": "你在紅塵中逗留了幾年？",
+    "text": "沈浸式互動的樂趣，在於選擇的不可逆與結果"
+  }
+}
+]

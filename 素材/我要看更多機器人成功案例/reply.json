@@ -1,0 +1,56 @@
+[
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://cdn-static.tibame.com/resize/entity-course/11/eeba1bb7-dc69-4a62-919f-cb3890368ca0_linebot_2x.png",
+        "title": "Title",
+        "text": "Text",
+        "actions": [
+          {
+            "type": "message",
+            "label": "Action 1",
+            "text": "Action 1"
+          },
+          {
+            "type": "message",
+            "label": "Action 2",
+            "text": "Action 2"
+          },
+          {
+            "type": "message",
+            "label": "Action 3",
+            "text": "Action 3"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://cdn-static.tibame.com/resize/entity-course/11/eeba1bb7-dc69-4a62-919f-cb3890368ca0_linebot_2x.png",
+        "title": "Title",
+        "text": "Text",
+        "actions": [
+          {
+            "type": "message",
+            "label": "Action 1",
+            "text": "Action 1"
+          },
+          {
+            "type": "message",
+            "label": "Action 2",
+            "text": "Action 2"
+          },
+          {
+            "type": "message",
+            "label": "Action 3",
+            "text": "Action 3"
+          }
+        ]
+      }
+    ]
+  }
+}
+]

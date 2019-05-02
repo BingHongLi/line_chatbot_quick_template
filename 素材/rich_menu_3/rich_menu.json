@@ -1,0 +1,101 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "王熙鳳款",
+  "chatBarText": "山尖凡鳥",
+  "areas": [
+    {
+      "bounds": {
+        "x": 99,
+        "y": 355,
+        "width": 648,
+        "height": 218
+      },
+      "action": {
+        "type": "postback",
+        "text": "想知道AI的戰略價值",
+        "data": "folder=凡鳥末世&tag=ai"
+      }
+    },
+    {
+      "bounds": {
+        "x": 107,
+        "y": 685,
+        "width": 640,
+        "height": 214
+      },
+      "action": {
+        "type": "postback",
+        "text": "想知道區塊鏈的戰略價值",
+        "data": "folder=月錢放貸&tag=blockchain"
+      }
+    },
+    {
+      "bounds": {
+        "x": 99,
+        "y": 1023,
+        "width": 660,
+        "height": 206
+      },
+      "action": {
+        "type": "postback",
+        "text": "想知道雲服務的戰略價值",
+        "data": "folder=風月寶鑑&tag=cloud"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1712,
+        "y": 210,
+        "width": 652,
+        "height": 215
+      },
+      "action": {
+        "type": "postback",
+        "text": "產品快速導入的訣竅",
+        "data": "folder=從令人木&tag=devops"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1716,
+        "y": 520,
+        "width": 664,
+        "height": 202
+      },
+      "action": {
+        "type": "postback",
+        "text": "點擊旁邊連結 line://ti/p/@gby2522m 進行聯絡",
+        "data": "folder=濟劉恩巧&tag=contact"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1716,
+        "y": 780,
+        "width": 660,
+        "height": 218
+      },
+      "action": {
+        "type": "uri",
+        "uri": "https://www.youtube.com/channel/UC3Gi7RVF6-rY2JBbfvMV9yA"
+      }
+    },
+    {
+      "bounds": {
+        "x": 146,
+        "y": 1367,
+        "width": 658,
+        "height": 233
+      },
+      "action": {
+        "type": "postback",
+        "text": "切換分頁",
+        "data": "tag=change_menu"
+      }
+    }
+  ]
+}

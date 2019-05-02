@@ -1,0 +1,101 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "主要的功能選單 - 經典款",
+  "chatBarText": "主功能選單",
+  "areas": [
+    {
+      "bounds": {
+        "x": 45,
+        "y": 125,
+        "width": 549,
+        "height": 684
+      },
+      "action": {
+        "type": "postback",
+        "text": "想知道AI的戰略價值",
+        "data": "tag=ai"
+      }
+    },
+    {
+      "bounds": {
+        "x": 619,
+        "y": 120,
+        "width": 639,
+        "height": 693
+      },
+      "action": {
+        "type": "postback",
+        "text": "想知道區塊鏈的戰略價值",
+        "data": "tag=blockchain"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1267,
+        "y": 120,
+        "width": 618,
+        "height": 693
+      },
+      "action": {
+        "type": "postback",
+        "text": "想知道雲服務的戰略價值",
+        "data": "tag=cloud"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1898,
+        "y": 116,
+        "width": 594,
+        "height": 701
+      },
+      "action": {
+        "type": "postback",
+        "text": "產品快速導入的訣竅",
+        "data": "tag=devops"
+      }
+    },
+    {
+      "bounds": {
+        "x": 45,
+        "y": 858,
+        "width": 557,
+        "height": 751
+      },
+      "action": {
+        "type": "postback",
+        "text": "點擊旁邊連結 line://ti/p/@gby2522m 進行聯絡",
+        "data": "tag=contact"
+      }
+    },
+    {
+      "bounds": {
+        "x": 623,
+        "y": 850,
+        "width": 1266,
+        "height": 755
+      },
+      "action": {
+        "type": "uri",
+        "uri": "https://www.youtube.com/channel/UC3Gi7RVF6-rY2JBbfvMV9yA"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1906,
+        "y": 854,
+        "width": 582,
+        "height": 747
+      },
+      "action": {
+        "type": "postback",
+        "text": "切換分頁",
+        "data": "tag=change_menu"
+      }
+    }
+  ]
+}

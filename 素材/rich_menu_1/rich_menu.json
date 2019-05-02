@@ -1,0 +1,113 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "賈寶玉款",
+  "chatBarText": "青梗峰頑石",
+  "areas": [
+    {
+      "bounds": {
+        "x": 1477,
+        "y": 50,
+        "width": 738,
+        "height": 226
+      },
+      "action": {
+        "type": "postback",
+        "text": "想知道AI的戰略價值",
+        "data": "folder=天地靈石&tag=ai"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1477,
+        "y": 318,
+        "width": 738,
+        "height": 202
+      },
+      "action": {
+        "type": "postback",
+        "text": "想知道區塊鏈的戰略價值",
+        "data": "folder=因果交織&tag=blockchain"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1473,
+        "y": 553,
+        "width": 738,
+        "height": 210
+      },
+      "action": {
+        "type": "postback",
+        "text": "想知道雲服務的戰略價值",
+        "data": "folder=雲中幻境&tag=cloud"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1481,
+        "y": 804,
+        "width": 730,
+        "height": 227
+      },
+      "action": {
+        "type": "postback",
+        "text": "產品快速導入的訣竅",
+        "data": "folder=匆忙幾度&tag=devops"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1485,
+        "y": 1085,
+        "width": 726,
+        "height": 210
+      },
+      "action": {
+        "type": "postback",
+        "text": "點擊旁邊連結 line://ti/p/@gby2522m 進行聯絡",
+        "data": "folder=金陵四家&tag=contact"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1246,
+        "y": 1324,
+        "width": 1163,
+        "height": 194
+      },
+      "action": {
+        "type": "uri",
+        "uri": "https://www.youtube.com/channel/UC3Gi7RVF6-rY2JBbfvMV9yA"
+      }
+    },
+    {
+      "bounds": {
+        "x": 91,
+        "y": 13,
+        "width": 1213,
+        "height": 1002
+      },
+      "action": {
+        "type": "message",
+        "text": "folder=風流情種"
+      }
+    },
+    {
+      "bounds": {
+        "x": 99,
+        "y": 1064,
+        "width": 1002,
+        "height": 500
+      },
+      "action": {
+        "type": "postback",
+        "text": "切換分頁",
+        "data": "tag=change_menu"
+      }
+    }
+  ]
+}

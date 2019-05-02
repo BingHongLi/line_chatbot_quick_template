@@ -1,0 +1,31 @@
+[
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://cdn-images-1.medium.com/max/2600/1*EBXc9eJ1YRFLtkNI_djaAw.png",
+        "title": "DevOps 加速產品面市",
+        "text": "市場是個最大的實驗環境，要判斷功能的商業價值，最好的辦法就是快速丟到市場上，快速驗證，快速修改。",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "線下課程學習",
+            "text": "https://www.tibame.com/goodjob/cloudnet",
+            "data": "tag=devops|offline|tutorial"
+          },
+          {
+            "type": "postback",
+            "label": "企業技術導入與演講",
+            "text": "點擊旁邊連結 line://ti/p/@gby2522m 進行聯絡",
+            "data": "tag=devops|offline|tutorial|contact"
+          }
+        ]
+      }
+    ]
+  }
+}
+]

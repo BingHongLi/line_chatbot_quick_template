@@ -1,0 +1,108 @@
+[
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://www.lnka.tw/images/article/20171021071354671.jpg",
+        "title": "商賈之勢",
+        "text": "舊版三國之中，諸葛亮有云，帥者三等，以人為兵，以物為兵，以不兵為兵。",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "工作有相關",
+            "text": "收到反饋",
+            "data": "tag=business"
+          },
+          {
+            "type": "postback",
+            "label": "工作沒相關",
+            "text": "收到反饋",
+            "data": "tag=not_business"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://cdn-static.tibame.com/resize/entity-course/37/c2095c7f-d3b6-4955-9f7c-96b1fabecc75_AWS_2x.png",
+        "title": "AWS 雲服務 大幅擴張影響力",
+        "text": "工具與思維密不可分，共享經濟思維的崛起，重新打造了一套本地與公有雲之間的合作共生新機會",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "工作有相關",
+            "text": "收到反饋",
+            "data": "tag=cloud"
+          },
+          {
+            "type": "postback",
+            "label": "工作沒相關",
+            "text": "收到反饋",
+            "data": "tag=not_cloud"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://cdn-static.tibame.com/resize/course/185/coverPic/ae318ab9-ba0b-47bc-b4cf-d117ce62917a_CT1705001_2x.jpg",
+        "title": "Blockchain 資訊共享的新媒介",
+        "text": "資料分析的戰略價值，衍伸了一系列新資料的需求，共享資料的商機越來越濃厚。",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "工作有相關",
+            "text": "收到反饋",
+            "data": "tag=blockchain"
+          },
+          {
+            "type": "postback",
+            "label": "工作沒相關",
+            "text": "收到反饋",
+            "data": "tag=not_blockchain"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://cdn-static.tibame.com/resize/entity-course/11/eeba1bb7-dc69-4a62-919f-cb3890368ca0_linebot_2x.png",
+        "title": "Chatbot 新型資訊獲取管道",
+        "text": "「這個世界是不會變的。」- 陳可辛，報紙與網頁本質上都是一種資訊獲取方式，Chatbot也是這樣的，不過他夠新。",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "工作有相關",
+            "text": "收到反饋",
+            "data": "tag=chatbot"
+          },
+          {
+            "type": "postback",
+            "label": "工作沒相關",
+            "text": "收到反饋",
+            "data": "tag=not_chatbot"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://cdn-images-1.medium.com/max/2600/1*EBXc9eJ1YRFLtkNI_djaAw.png",
+        "title": "DevOps 加速產品面市",
+        "text": "市場是個最大的實驗環境，要判斷功能的商業價值，最好的辦法就是快速丟到市場上，快速驗證，快速修改。",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "工作有相關",
+            "text": "收到反饋",
+            "data": "tag=devops"
+          },
+          {
+            "type": "postback",
+            "label": "工作沒相關",
+            "text": "收到反饋",
+            "data": "tag=not_devops"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+]

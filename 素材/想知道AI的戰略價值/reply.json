@@ -1,0 +1,37 @@
+[
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://cdn-static.tibame.com/resize/entity-course/11/eeba1bb7-dc69-4a62-919f-cb3890368ca0_linebot_2x.png",
+        "title": "零基礎LINE對話機器人實作班",
+        "text": "唯一政府認證好課，補助50%學費，本課程獨家教你機器人的戰略思維、設計、開發、線上部署，三天實作課程，學員強烈推薦",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "課程網頁",
+            "text": "https://www.tibame.com/offline/linebot?classUid=82",
+            "data": "tag=chatbot|line|offline|tutorial"
+          },
+          {
+            "type": "postback",
+            "label": "企業專案製作",
+            "text": "點擊旁邊連結 line://ti/p/@gby2522m 進行聯絡",
+            "data": "tag=chatbot|contact|line|project|project"
+          },
+          {
+            "type": "postback",
+            "label": "看更多機器人案例",
+            "text": "我要看更多機器人成功案例",
+            "data": "tag=chatbot|line|sample"
+          }
+        ]
+      }
+    ]
+  }
+}
+]

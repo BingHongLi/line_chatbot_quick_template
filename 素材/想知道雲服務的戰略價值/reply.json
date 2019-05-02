@@ -1,0 +1,71 @@
+[
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://cdn-static.tibame.com/resize/entity-course/37/c2095c7f-d3b6-4955-9f7c-96b1fabecc75_AWS_2x.png",
+        "title": "線下-AWS雲端技術與安全實務",
+        "text": "以戰略思想、專業實戰的角度來引領學員們進入雲端的世界。",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "課程網頁",
+            "text": "https://www.tibame.com/offline/aws-platform",
+            "data": "tag=aws|cloud|offline|tutorial"
+          },
+          {
+            "type": "postback",
+            "label": "客制課程",
+            "text": "點擊旁邊連結 line://ti/p/@gby2522m 進行聯絡",
+            "data": "tag=aws|cloud|contact|tutorial"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://cdn-static.tibame.com/temp/b15c652d-d347-439c-96de-1c3fe8a2e929_aws-blockchain.png",
+        "title": "線下-AWS區塊鏈平台與智能合約 DApp 開發實務",
+        "text": "講述區塊鏈的戰略價值、並結合AWS服務，引領學員進行具高價值的實作",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "課程網頁",
+            "text": "https://www.tibame.com/offline/aws-blockchain?classUid=87",
+            "data": "tag=aws|blockchain|offline|tutorial"
+          },
+          {
+            "type": "postback",
+            "label": "客制課程",
+            "text": "點擊旁邊連結 line://ti/p/@gby2522m 進行聯絡",
+            "data": "tag=aws|blockchain|contact|tutorial"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://cdn-static.tibame.com/resize/entity-course/37/c2095c7f-d3b6-4955-9f7c-96b1fabecc75_AWS_2x.png",
+        "title": "線上-AWS企業實戰線上課",
+        "text": "錄製中，敬請期待。",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "課程網頁",
+            "text": "錄製中",
+            "data": "tag=aws|cloud|online|tutorial"
+          },
+          {
+            "type": "postback",
+            "label": "聯絡合作",
+            "text": "點擊旁邊連結 line://ti/p/@gby2522m 進行聯絡",
+            "data": "tag=aws|cloud|contact|tutorial"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+]
