@@ -41,7 +41,7 @@ secretFileContentJson=json.load(open("./line_secret_key",'r'))
 server_url=secretFileContentJson.get("server_url")
 
 # 設定Server啟用細節
-app = Flask(__name__,static_url_path = "/images" , static_folder = "./images/")
+app = Flask(__name__,static_url_path = "/素材" , static_folder = "./素材/")
 
 # 生成實體物件
 line_bot_api = LineBotApi(secretFileContentJson.get("channel_access_token"))
