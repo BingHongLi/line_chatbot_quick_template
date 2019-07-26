@@ -82,9 +82,22 @@ def callback():
 
 '''
 
+'''
+
+消息判斷器
+
+讀取指定的json檔案後，把json解析成不同格式的SendMessage
+
+讀取檔案，
+把內容轉換成json
+將json轉換成消息
+放回array中，並把array傳出。
+
+'''
+
 # 引用會用到的套件
 from linebot.models import (
-    ImagemapSendMessage,TextSendMessage,ImageSendMessage,LocationSendMessage 
+    ImagemapSendMessage,TextSendMessage,ImageSendMessage,LocationSendMessage,FlexSendMessage
 )
 
 from linebot.models.template import (
@@ -122,6 +135,8 @@ def detect_json_array_to_new_message_array(fileName):
             returnArray.append(AudioSendMessage.new_from_json_dict(jsonObject))  
         elif message_type == 'location':
             returnArray.append(LocationSendMessage.new_from_json_dict(jsonObject))
+        elif message_type == 'flex':
+            returnArray.append(FlexSendMessage.new_from_json_dict(jsonObject))    
 
     # 回傳
     return returnArray
