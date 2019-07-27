@@ -4,12 +4,6 @@
   "text": "其實也就是個定位在官方宣傳的內容機器人，但也不想顯得太無趣，耗了大家的時間。恰好想起很久以前的文學夢，想起了紅樓夢，想起了最後那一片大地，真乾淨。"
 },
 {
-  "type": "image",
-  "originalContentUrl": "PROVIDE_URL_FROM_YOUR_SERVER",
-  "previewImageUrl": "PROVIDE_URL_FROM_YOUR_SERVER",
-  "animated": true
-},
-{
   "type": "template",
   "altText": "this is a buttons template",
   "template": {
