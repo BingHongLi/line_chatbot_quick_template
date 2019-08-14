@@ -1,0 +1,27 @@
+version: '3.7'
+services:
+  jupyter:
+    build:
+      context: .
+    container_name: line-chat-bot-jupyter 
+    ports:
+      - "5000:5000"
+      - "8888:8888"
+    volumes:
+      - ./素材:/home/jovyan/work
+    networks:
+      - chatbot-net
+    command: start.sh jupyter notebook --NotebookApp.token=''
+  
+  serveo:
+    image: aeon33system/serveo-alpine:v1
+    container_name: chatbot_serveo
+    tty: true
+    stdin_open: true
+    networks:
+    - chatbot-net
+    command: autossh -M 0 -R chatbottest.serveo.net:80:line-chat-bot-jupyter:5000 -o StrictHostKeyChecking=no serveo.net
+
+networks:
+  chatbot-net:
+    
