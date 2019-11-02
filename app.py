@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[9]:
+# In[ ]:
 
 
 '''
@@ -11,7 +11,7 @@
 '''
 
 
-# In[10]:
+# In[ ]:
 
 
 '''
@@ -37,7 +37,7 @@ from linebot.exceptions import (
 import json
 
 # 載入基礎設定檔
-secretFileContentJson=json.load(open("./line_secret_key",'r'))
+secretFileContentJson=json.load(open("./line_secret_key",'r',encoding='utf8'))
 server_url=secretFileContentJson.get("server_url")
 
 # 設定Server啟用細節
@@ -66,21 +66,8 @@ def callback():
     return 'OK'
 
 
-# In[11]:
+# In[ ]:
 
-
-'''
-
-消息判斷器
-
-讀取指定的json檔案後，把json解析成不同格式的SendMessage
-
-讀取檔案，
-把內容轉換成json
-將json轉換成消息
-放回array中，並把array傳出。
-
-'''
 
 '''
 
@@ -97,7 +84,7 @@ def callback():
 
 # 引用會用到的套件
 from linebot.models import (
-    ImagemapSendMessage,TextSendMessage,ImageSendMessage,LocationSendMessage,FlexSendMessage
+    ImagemapSendMessage,TextSendMessage,ImageSendMessage,LocationSendMessage,FlexSendMessage,VideoSendMessage
 )
 
 from linebot.models.template import (
@@ -136,13 +123,16 @@ def detect_json_array_to_new_message_array(fileName):
         elif message_type == 'location':
             returnArray.append(LocationSendMessage.new_from_json_dict(jsonObject))
         elif message_type == 'flex':
+            returnArray.append(FlexSendMessage.new_from_json_dict(jsonObject))  
+        elif message_type == 'video':
             returnArray.append(FlexSendMessage.new_from_json_dict(jsonObject))    
+
 
     # 回傳
     return returnArray
 
 
-# In[12]:
+# In[ ]:
 
 
 '''
@@ -176,7 +166,7 @@ def process_follow_event(event):
     )
 
 
-# In[13]:
+# In[ ]:
 
 
 '''
@@ -211,7 +201,7 @@ def process_text_message(event):
     )
 
 
-# In[14]:
+# In[ ]:
 
 
 '''
@@ -272,7 +262,7 @@ def process_postback_event(event):
         )
 
 
-# In[15]:
+# In[ ]:
 
 
 '''
@@ -280,11 +270,11 @@ def process_postback_event(event):
 Application 運行（開發版）
 
 '''
-# if __name__ == "__main__":
-#     app.run(host='0.0.0.0')
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
 
 
-# In[16]:
+# In[ ]:
 
 
 '''
@@ -293,7 +283,7 @@ Application 運行（heroku版）
 
 '''
 
-import os
-if __name__ == "__main__":
-    app.run(host='0.0.0.0',port=os.environ['PORT'])
+# import os
+# if __name__ == "__main__":
+#     app.run(host='0.0.0.0',port=os.environ['PORT'])
 
